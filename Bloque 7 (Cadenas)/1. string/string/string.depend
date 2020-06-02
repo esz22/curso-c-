@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586742465 source:c:\users\esz22\documents\cursos\c++\udemy\bloque 7 (cadenas)\1. string\string\main.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+
