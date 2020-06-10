@@ -8,9 +8,31 @@
 
 using namespace std;
 
+void pedirDatos();
+void funpot(int x, int y);
+
+int x;
+int y;
+
 int main()
 {
+    pedirDatos();
+    funpot(x,y);
 
     getch();
     return 0;
+}
+
+void pedirDatos(){
+    cout<<"Digite un numero: "<<endl;
+    cin>>x;
+    cout<<"Digite la potencia: "<<endl;
+    cin>>y;
+}
+void funpot(int x, int y){
+    long res=1;
+    for(int i =1;i<=y;i++){
+        res*=x;
+    }
+    cout<<"\nEl resultado es: "<<res<<endl;
 }
