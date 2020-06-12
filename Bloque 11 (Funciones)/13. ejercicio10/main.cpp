@@ -7,10 +7,25 @@ de dias que se le transmitan. para este problema suponga que cada año tiene 365 
 
 using namespace std;
 
+void calc_anos(int totald,int&,int&,int&);
+
 int main()
 {
+    int totalDias,ano,mes, dias;
+
+    cout<<"digite el total de dias: "<<endl;
+    cin>>totalDias;
+
+    calc_anos(totalDias,ano,mes,dias);
+    cout<<"\nFecha actual: "<<dias+1<<"/"<<mes+1<<"/"<<ano+2000<<endl;
 
 
     getch();
     return 0;
+}
+void calc_anos(int totald,int& anos,int& meses,int& dias){
+    anos=totald/365;
+    totald%=365;
+    meses=totald/30;
+    dias=totald%30;
 }
