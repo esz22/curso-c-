@@ -41,6 +41,7 @@ bool comprovador(int nums[],int n){
     for(int i=0;i<n-1;i++){
         if(nums[i+1]<nums[i]){
             orden=false;
+            break;
         }
     }
     return orden;
