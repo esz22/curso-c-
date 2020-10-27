@@ -1,5 +1,5 @@
 /*Escribe una funcion escribeNumeros(int ini,int fin) que devuelva en la salida estandar los numeros del ini al fin .
-Escriba una version que escriba ñps numeros en orden ascendente.
+Escriba una version que escriba los numeros en orden ascendente.
 escribeNumeros(ini,fin)= ini                                 ,si ini=fin
                          escribeNumeros(ini,fin-1)           ,si fin>ini
 */
